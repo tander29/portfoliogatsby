@@ -1,5 +1,6 @@
-// @flow
 import { Link } from "gatsby"
+// @flow
+
 import React from "react"
 
 type headerType = {
@@ -8,7 +9,7 @@ type headerType = {
 const Header = ({ siteTitle }: headerType) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `teal`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -23,13 +24,14 @@ const Header = ({ siteTitle }: headerType) => (
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: `whitesmoke`,
             textDecoration: `none`,
           }}
         >
           {siteTitle}
         </Link>
       </h1>
+      <h5>| Software Engineer</h5>
     </div>
   </header>
 )
