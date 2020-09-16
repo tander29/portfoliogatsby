@@ -16,3 +16,7 @@ to start locally:
 to run flow (only on opt in files, files that include `// @flow`)
 
 > npm flow
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=marcornett&layout=compact)](https://github.com/tander29/github-readme-stats)
+
+![Github Stats](https://github-readme-stats.vercel.app/api?username=tander29&show_icons=true)
